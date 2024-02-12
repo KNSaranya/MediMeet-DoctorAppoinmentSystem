@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="9ccc3270975c8210ad42f62de053af7d" label="Doctor" max_length="40" name="x_1287841_medimeet_doctor" type="collection">
-        <element attributes="encode_utf8=false" label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" display="true" label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Practising from" mandatory="true" max_length="40" name="practising_from" type="glide_date"/>
         <element label="Professional info" mandatory="true" max_length="200" name="professional_info" type="string"/>
-        <element choice="1" display="true" label="Specialisation" max_length="40" name="specialisation" type="choice">
+        <element choice="1" label="Specialisation" max_length="40" name="specialisation" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Gynaecologist" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Dentist" sequence="1" value="2"/>

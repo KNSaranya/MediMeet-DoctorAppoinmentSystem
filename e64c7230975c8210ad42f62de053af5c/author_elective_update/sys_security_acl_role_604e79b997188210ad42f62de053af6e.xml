@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 10:26:07</sys_created_on>
+        <sys_id>604e79b997188210ad42f62de053af6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1287841_medimeet.doctor</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_security_acl display_value="">b23e79b997188210ad42f62de053af68</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_604e79b997188210ad42f62de053af6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 10:26:07</sys_updated_on>
+        <sys_user_role display_value="x_1287841_medimeet.doctor" name="x_1287841_medimeet.doctor">675cf230975c8210ad42f62de053af81</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</application>
+        <file_path/>
+        <instance_id>5a3644ec1bbeb150ba5ceb9b2d4bcb54</instance_id>
+        <instance_name>dev224680</instance_name>
+        <name>sys_security_acl_role_604e79b997188210ad42f62de053af6e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-12 10:26:07</sys_created_on><sys_id>604e79b997188210ad42f62de053af6e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_1287841_medimeet.doctor</sys_name><sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package><sys_policy/><sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope><sys_security_acl display_value="">b23e79b997188210ad42f62de053af68</sys_security_acl><sys_update_name>sys_security_acl_role_604e79b997188210ad42f62de053af6e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-12 10:26:07</sys_updated_on><sys_user_role display_value="x_1287841_medimeet.doctor" name="x_1287841_medimeet.doctor">675cf230975c8210ad42f62de053af81</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-506277215</payload_hash>
+        <record_name>.x_1287841_medimeet.doctor</record_name>
+        <reverted_from/>
+        <source>c6b501f197148210ad42f62de053af3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 10:26:07</sys_created_on>
+        <sys_id>caae71f997188210ad42f62de053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d9cda48980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 10:26:07</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>8aae75b9c7188210de97b20a862ffa60</update_guid>
+        <update_guid_history>8aae75b9c7188210de97b20a862ffa60:-506277215</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_1287841_medimeet.doctor">5d9fb93d97188210ad42f62de053af54</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 10:30:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>7c7f96d8c6064f55aa9640d2f9f65da1</sys_id>
+        <sys_metadata>604e79b997188210ad42f62de053af6e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1287841_medimeet.doctor</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_scope_delete display_value="">b8836e4325214378a9428f908adde364</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_604e79b997188210ad42f62de053af6e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_604e79b997188210ad42f62de053af6e">caae71f997188210ad42f62de053af86</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 10:30:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
