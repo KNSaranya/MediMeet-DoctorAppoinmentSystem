@@ -14,17 +14,17 @@
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
         <order>1</order>
-        <override_menu_roles>false</override_menu_roles>
+        <override_menu_roles>true</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_1287841_medimeet.doctor</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-09 12:23:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f4dcb270975c8210ad42f62de053af6b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Doctor</sys_name>
         <sys_overrides/>
         <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
         <sys_update_name>sys_app_module_f4dcb270975c8210ad42f62de053af6b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-09 12:23:48</sys_updated_on>
+        <sys_updated_on>2024-02-12 14:47:07</sys_updated_on>
         <timeline_page/>
         <title>Doctor</title>
         <uncancelable>false</uncancelable>
