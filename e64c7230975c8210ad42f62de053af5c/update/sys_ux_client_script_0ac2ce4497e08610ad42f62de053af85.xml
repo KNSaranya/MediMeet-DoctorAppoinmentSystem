@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Record">b980d94797d44210ad42f62de053af99</macroponent>
+        <name>ProcessFlow</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    
+    const status = api.data.appointment_record.output[0].status;
+    //const test = api.data.look_up_record_1.output;
+    debugger;
+    //let stateData = [{"id":"step1","label":"Not started","progress":"none"},{"id":"step2","label":"Active","progress":"partial"},{"id":"step3","label":"In progress","progress":"partial"},{"id":"step4","label":"Complete","progress":"done","disabled":true}];
+   let stateData =[];
+   console.log(status);
+    //let status = 1;
+     
+    //console.log(status);
+   if(status == "1"){
+        stateData.push({
+                    'id': 'step' + 1,
+                    'label': 'Draft',
+                    'progress': 'done',
+                    'disabled': false
+                });
+                stateData.push({
+                    'id': 'step' + 2,
+                    'label': "Send for approval",
+                    'progress': 'none',
+                    'disabled': false
+                });
+                stateData.push({
+                    'id': 'step' + 3,
+                    'label': "Booked",
+                    'progress': 'none',
+                    'disabled': false
+                });
+                stateData.push({
+                    'id': 'step' + 4,
+                    'label': "Closed",
+                    'progress': 'none',
+                    'disabled': false
+                });
+    }
+    else if(status == "5"){
+        stateData.push({
+                    'id': 'step' + 1,
+                    'label': 'Draft',
+                    'progress': 'done',
+                    'disabled': false
+                });
+                stateData.push({
+                    'id': 'step' + 2,
+                    'label': "Send for approval",
+                    'progress': 'done',
+                    'disabled': false
+                });
+                stateData.push({
+                    'id': 'step' + 3,
+                    'label': "Booked",
+                    'progress': 'none',
+                    'disabled': false
+                });
+                stateData.push({
+                    'id': 'step' + 4,
+                    'label': "Closed",
+                    'progress': 'none',
+                    'disabled': false
+                });
+    }
+    else if(status == "2"){
+        stateData.push({
+                    'id': 'step' + 1,
+                    'label': 'Draft',
+                    'progress': 'done',
+                    'disabled': false
+                });
+                stateData.push({
+                    'id': 'step' + 2,
+                    'label': "Send for approval",
+                    'progress': 'done',
+                    'disabled': false
+                });
+                stateData.push({
+                    'id': 'step' + 3,
+                    'label': "Booked",
+                    'progress': 'done',
+                    'disabled': false
+                });
+                stateData.push({
+                    'id': 'step' + 4,
+                    'label': "Closed",
+                    'progress': 'none',
+                    'disabled': false
+                });
+    }
+    else if(status == "4"){
+        stateData.push({
+                    'id': 'step' + 1,
+                    'label': 'Draft',
+                    'progress': 'done',
+                    'disabled': false
+                });
+                stateData.push({
+                    'id': 'step' + 2,
+                    'label': "Send for approval",
+                    'progress': 'done',
+                    'disabled': false
+                });
+                stateData.push({
+                    'id': 'step' + 3,
+                    'label': "Booked",
+                    'progress': 'done',
+                    'disabled': false
+                });
+                stateData.push({
+                    'id': 'step' + 4,
+                    'label': "Closed",
+                    'progress': 'done',
+                    'disabled': false
+                });
+    }
+     api.setState('statusFlowValues', stateData);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 12:44:50</sys_created_on>
+        <sys_id>0ac2ce4497e08610ad42f62de053af85</sys_id>
+        <sys_mod_count>125</sys_mod_count>
+        <sys_name>ProcessFlow</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_ux_client_script_0ac2ce4497e08610ad42f62de053af85</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 12:54:25</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

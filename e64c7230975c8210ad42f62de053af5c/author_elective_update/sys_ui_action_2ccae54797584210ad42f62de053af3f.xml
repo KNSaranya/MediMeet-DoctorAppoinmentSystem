@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>raise_a_request</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+	var hospital_name = g_form.getValue('hospital');
+	if(hospital_name == ""){
+		//g_form.addErrorMessage('Please fill the hospital');
+		g_form.showFieldMsg("hospital", "Please fill the hospital", "error");
+	}
+	var doc_name = g_form.getValue('doctor');
+	if(doc_name == ""){
+		//g_form.addErrorMessage('Please fill the doctor');
+		g_form.showFieldMsg("doctor", "Please fill the doctor", "error");
+	}
+	var appointment_date = g_form.getValue('appointment_date');
+	if(appointment_date == ""){
+		//g_form.addErrorMessage('Please fill the appointment date');
+		g_form.showFieldMsg("appointment_date", "Please fill the appointment date", "error");
+	}
+	g_form.submit('raise_a_request');
+	//var result = sn_fd.Flow.startAsync('Scheduled script to create hospital doctor slots');
+    // else if(confirm('Are you sure want to raise a request')){
+	// g_form.setValue('status', 'Draft');
+	// g_form.save();
+//}
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Raise a request</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[sn_fd.Flow.startAsync('Scheduled script to create hospital doctor slots');]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-16 06:11:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ccae54797584210ad42f62de053af3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Raise a request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_ui_action_2ccae54797584210ad42f62de053af3f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-16 06:11:35</sys_updated_on>
+        <table>x_1287841_medimeet_appointment</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</application>
+        <file_path/>
+        <instance_id>5a3644ec1bbeb150ba5ceb9b2d4bcb54</instance_id>
+        <instance_name>dev224680</instance_name>
+        <name>sys_ui_action_2ccae54797584210ad42f62de053af3f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;raise_a_request&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+	var hospital_name = g_form.getValue('hospital');
+	if(hospital_name == ""){
+		//g_form.addErrorMessage('Please fill the hospital');
+		g_form.showFieldMsg("hospital", "Please fill the hospital", "error");
+	}
+	var doc_name = g_form.getValue('doctor');
+	if(doc_name == ""){
+		//g_form.addErrorMessage('Please fill the doctor');
+		g_form.showFieldMsg("doctor", "Please fill the doctor", "error");
+	}
+	var appointment_date = g_form.getValue('appointment_date');
+	if(appointment_date == ""){
+		//g_form.addErrorMessage('Please fill the appointment date');
+		g_form.showFieldMsg("appointment_date", "Please fill the appointment date", "error");
+	}
+	g_form.submit('raise_a_request');
+	//var result = sn_fd.Flow.startAsync('Scheduled script to create hospital doctor slots');
+    // else if(confirm('Are you sure want to raise a request')){
+	// g_form.setValue('status', 'Draft');
+	// g_form.save();
+//}
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;true&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;true&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Raise a request&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[sn_fd.Flow.startAsync('Scheduled script to create hospital doctor slots');]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-16 06:11:35&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2ccae54797584210ad42f62de053af3f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Raise a request&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="MediMeet" source="x_1287841_medimeet"&gt;e64c7230975c8210ad42f62de053af5c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MediMeet"&gt;e64c7230975c8210ad42f62de053af5c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_2ccae54797584210ad42f62de053af3f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-16 06:11:35&lt;/sys_updated_on&gt;&lt;table&gt;x_1287841_medimeet_appointment&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;true&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>847668119</payload_hash>
+        <record_name>Raise a request</record_name>
+        <reverted_from/>
+        <source>c6b501f197148210ad42f62de053af3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-16 06:11:35</sys_created_on>
+        <sys_id>20cae54797584210ad42f62de053af45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18db08ab0210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-16 06:11:35</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>64cae5470b58421046fc74d7f1a39044</update_guid>
+        <update_guid_history>64cae5470b58421046fc74d7f1a39044:847668119</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-16 06:12:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>518fc45cf4a249689ecdeab2c49f6241</sys_id>
+        <sys_metadata>2ccae54797584210ad42f62de053af3f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Raise a request</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_parent display_value="Appointment">49befe0697540210ad42f62de053af82</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_scope_delete display_value="">b8836e4325214378a9428f908adde364</sys_scope_delete>
+        <sys_update_name>sys_ui_action_2ccae54797584210ad42f62de053af3f</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_2ccae54797584210ad42f62de053af3f">20cae54797584210ad42f62de053af45</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-16 06:12:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

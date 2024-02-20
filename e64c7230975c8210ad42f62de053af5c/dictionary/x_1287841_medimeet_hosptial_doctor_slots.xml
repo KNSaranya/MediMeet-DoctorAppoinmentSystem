@@ -2,10 +2,10 @@
     <element db_object_id="dff3f57d97d48210ad42f62de053af0a" label="Hosptial Doctor Slots" max_length="40" name="x_1287841_medimeet_hosptial_doctor_slots" type="collection">
         <element label="Date" max_length="40" name="date" type="glide_date"/>
         <element label="Doctor name" mandatory="true" max_length="32" name="doctor_name" reference="x_1287841_medimeet_doctor" type="reference"/>
-        <element label="Hospital name" mandatory="true" max_length="32" name="hospital_name" reference="x_1287841_medimeet_hospital" type="reference"/>
+        <element display="true" label="Hospital name" mandatory="true" max_length="32" name="hospital_name" reference="x_1287841_medimeet_hospital" type="reference"/>
         <element label="Is available" max_length="40" name="is_available" type="boolean"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element display="true" label="Slot end time" max_length="40" name="slot_end_time" type="glide_date_time"/>
+        <element label="Slot end time" max_length="40" name="slot_end_time" type="glide_date_time"/>
         <element label="Slot start time" max_length="40" name="slot_start_time" type="glide_date_time"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">

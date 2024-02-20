@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>abc</name>
+        <roles>x_1287841_medimeet.admin</roles>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 11:07:44</sys_created_on>
+        <sys_id>8e5b1ca2979c4210ad42f62de053af0e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>abc</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_ui_view_8e5b1ca2979c4210ad42f62de053af0e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 11:08:42</sys_updated_on>
+        <title>abc</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</application>
+        <file_path/>
+        <instance_id>5a3644ec1bbeb150ba5ceb9b2d4bcb54</instance_id>
+        <instance_name>dev224680</instance_name>
+        <name>sys_ui_view_8e5b1ca2979c4210ad42f62de053af0e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>abc</name><roles>x_1287841_medimeet.admin</roles><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-14 11:07:44</sys_created_on><sys_id>8e5b1ca2979c4210ad42f62de053af0e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>abc</sys_name><sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package><sys_policy/><sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope><sys_update_name>sys_ui_view_8e5b1ca2979c4210ad42f62de053af0e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-14 11:08:42</sys_updated_on><title>abc</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>373433828</payload_hash>
+        <record_name>abc</record_name>
+        <reverted_from/>
+        <source>c6b501f197148210ad42f62de053af3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 11:08:42</sys_created_on>
+        <sys_id>959b50e2979c4210ad42f62de053af3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18da74dfc370000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 11:08:42</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>1d9b50e2479c4210a58b629de520ba3c</update_guid>
+        <update_guid_history>1d9b50e2479c4210a58b629de520ba3c:373433828,535bd8a2869c4210f923f41c2a48546b:-253495643</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 11:09:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>4b622c90e16542f7b8ae3c6a63d54e49</sys_id>
+        <sys_metadata>8e5b1ca2979c4210ad42f62de053af0e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>abc</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_scope_delete display_value="">b8836e4325214378a9428f908adde364</sys_scope_delete>
+        <sys_update_name>sys_ui_view_8e5b1ca2979c4210ad42f62de053af0e</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_8e5b1ca2979c4210ad42f62de053af0e">959b50e2979c4210ad42f62de053af3d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 11:09:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
