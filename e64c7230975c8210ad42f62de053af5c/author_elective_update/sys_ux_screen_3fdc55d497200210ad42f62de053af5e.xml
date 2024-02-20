@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Medimeet workspace">c9dec5c397d44210ad42f62de053afbe</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    
+]</event_mappings>
+        <macroponent display_value="Rating">17dcd99497200210ad42f62de053af98</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
+        <name>Rating</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Appointment">a580d94797d44210ad42f62de053af94</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 02:23:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3fdc55d497200210ad42f62de053af5e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Rating</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_ux_screen_3fdc55d497200210ad42f62de053af5e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 02:28:18</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=3fdc55d497200210ad42f62de053af5e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</application>
+        <file_path/>
+        <instance_id>5a3644ec1bbeb150ba5ceb9b2d4bcb54</instance_id>
+        <instance_name>dev224680</instance_name>
+        <name>sys_ux_screen_3fdc55d497200210ad42f62de053af5e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Medimeet workspace">c9dec5c397d44210ad42f62de053afbe</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings>[
+    
+]</event_mappings><macroponent display_value="Rating">17dcd99497200210ad42f62de053af98</macroponent><macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config><name>Rating</name><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Appointment">a580d94797d44210ad42f62de053af94</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-20 02:23:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3fdc55d497200210ad42f62de053af5e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Rating</sys_name><sys_overrides/><sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package><sys_policy/><sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope><sys_update_name>sys_ux_screen_3fdc55d497200210ad42f62de053af5e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-20 02:28:18</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=3fdc55d497200210ad42f62de053af5e"/></record_update>]]></payload>
+        <payload_hash>-1208583405</payload_hash>
+        <record_name>Rating</record_name>
+        <reverted_from/>
+        <source>c6b501f197148210ad42f62de053af3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 02:28:18</sys_created_on>
+        <sys_id>3c0ed95897200210ad42f62de053af48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc457b37c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 02:28:18</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>f00ed958d9200210d40b3b86fb2a8048</update_guid>
+        <update_guid_history>f00ed958d9200210d40b3b86fb2a8048:-1208583405,3bdc55d4c3200210b3f36c6af6de8486:1337457890</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 09:21:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>11912abf98ab4854978bd6d6f5d5c009</sys_id>
+        <sys_metadata>3fdc55d497200210ad42f62de053af5e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rating</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_scope_delete display_value="">b8836e4325214378a9428f908adde364</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_3fdc55d497200210ad42f62de053af5e</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_3fdc55d497200210ad42f62de053af5e">3c0ed95897200210ad42f62de053af48</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 09:21:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

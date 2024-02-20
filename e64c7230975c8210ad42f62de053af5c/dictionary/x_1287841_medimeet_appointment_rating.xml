@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="471a1dd097200210ad42f62de053af20" label="Appointment Rating" max_length="40" name="x_1287841_medimeet_appointment_rating" type="collection">
+        <element label="Appointment" max_length="32" name="appointment" reference="x_1287841_medimeet_appointment" type="reference"/>
+        <element label="Comments" max_length="200" name="comments" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Rating" max_length="20" name="rating" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Very Good" sequence="1" value="verygood"/>
+                <element inactive_on_update="false" label="Good" sequence="2" value="good"/>
+                <element inactive_on_update="false" label="Average" sequence="3" value="average"/>
+                <element inactive_on_update="false" label="Bad" sequence="4" value="bad"/>
+                <element inactive_on_update="false" label="Poor" sequence="5" value="poor"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="appointment"/>
+        </index>
+    </element>
+</database>

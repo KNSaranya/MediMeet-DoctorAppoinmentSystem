@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="test1">5aec9d7697940210ad42f62de053afbf</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId</fields>
+        <icon/>
+        <name>test record</name>
+        <optional_parameters>query,extraParams,views,selectedTabIndex</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>test-record</route_type>
+        <screen_type display_value="test record">361d11f697940210ad42f62de053afd2</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-15 10:33:28</sys_created_on>
+        <sys_id>721d11f697940210ad42f62de053afd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test record</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_ux_app_route_721d11f697940210ad42f62de053afd5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-15 10:33:28</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=721d11f697940210ad42f62de053afd5"/>
+</record_update>

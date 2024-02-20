@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="49befe0697540210ad42f62de053af82" label="Appointment" max_length="40" name="x_1287841_medimeet_appointment" type="collection">
+        <element label="Appointment date" max_length="40" name="appointment_date" type="glide_date"/>
+        <element label="Appointment end time" max_length="40" name="appointment_end_time" type="glide_time"/>
+        <element label="Appointment start time" max_length="40" name="appointment_start_time" type="glide_time"/>
+        <element label="Approval status" max_length="20" name="approval_status" type="string"/>
+        <element label="Doctor" max_length="32" name="doctor" reference="x_1287841_medimeet_doctor" type="reference"/>
+        <element label="Hospital " max_length="32" name="hospital" reference="x_1287841_medimeet_hospital" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Patient name" max_length="32" name="patient_name" reference="sys_user" type="reference"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Send for approval" sequence="2" value="5"/>
+                <element inactive_on_update="false" label="Booked" sequence="3" value="2"/>
+                <element inactive_on_update="false" label="Reviewed" sequence="4" value="3"/>
+                <element inactive_on_update="false" label="Closed" sequence="5" value="4"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="doctor"/>
+        </index>
+        <index name="index2">
+            <element name="hospital"/>
+        </index>
+        <index name="index3">
+            <element name="patient_name"/>
+        </index>
+    </element>
+</database>

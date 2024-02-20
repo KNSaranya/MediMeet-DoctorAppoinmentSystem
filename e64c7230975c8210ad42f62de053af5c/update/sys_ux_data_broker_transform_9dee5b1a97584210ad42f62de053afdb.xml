@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_1287841_medimeet.Retrieve Doctors data</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Retrieve Doctors data</name>
+        <output_schema/>
+        <private>false</private>
+        <props/>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function test(){
+var nr = new GlideRecord('x_1287841_medimeet_doctor');
+nr.addActiveQuery();
+nr.orderByDesc('sys_created_on');
+nr.setLimit(10);
+nr.query();
+var recordList = [];
+while(nr.next()){
+    recordList.push({'id':nr.getValue('sys_id'),'label':nr.getDisplayValue()});
+}
+return recordList;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 06:44:46</sys_created_on>
+        <sys_id>9dee5b1a97584210ad42f62de053afdb</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Retrieve Doctors data</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_9dee5b1a97584210ad42f62de053afdb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 17:14:52</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=9dee5b1a97584210ad42f62de053afdb"/>
+</record_update>

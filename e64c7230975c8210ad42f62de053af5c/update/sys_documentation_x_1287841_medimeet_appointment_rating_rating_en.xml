@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="pincode" label="Pincode" language="en" table="x_1287841_medimeet_hospital">
+    <sys_documentation element="rating" label="Rating" language="en" table="x_1287841_medimeet_appointment_rating">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>pincode</element>
+            <element>rating</element>
             <help/>
             <hint/>
-            <label>Pincode</label>
+            <label>Rating</label>
             <language>en</language>
-            <name>x_1287841_medimeet_hospital</name>
-            <plural>Pincodes</plural>
+            <name>x_1287841_medimeet_appointment_rating</name>
+            <plural>Ratings</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-12 07:42:33</sys_created_on>
+            <sys_created_on>2024-02-20 02:13:29</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Pincode</sys_name>
+            <sys_name>Rating</sys_name>
             <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
             <sys_policy/>
             <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
-            <sys_update_name>sys_documentation_x_1287841_medimeet_hospital_pincode_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1287841_medimeet_appointment_rating_rating_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-12 07:42:33</sys_updated_on>
+            <sys_updated_on>2024-02-20 02:13:29</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

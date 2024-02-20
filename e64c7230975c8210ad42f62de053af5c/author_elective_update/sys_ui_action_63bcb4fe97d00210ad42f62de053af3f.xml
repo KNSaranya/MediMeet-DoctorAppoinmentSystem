@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>raise_a_request</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+	if(confirm('test')){
+gsftSubmit(null, g_form.getFormElement(), 'raise_a_request');
+	}
+	
+       // g_form.setValue('status', 1);
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Raise a request</name>
+        <onclick>showAlert()</onclick>
+        <order>100</order>
+        <script><![CDATA[function showAlert() {
+if(confirm('test')){
+gsftSubmit(null, g_form.getFormElement(), 'raise_a_request');
+	}
+}
+current.status = 'Draft';
+current.update();]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-15 08:20:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>63bcb4fe97d00210ad42f62de053af3f</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Raise a request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_ui_action_63bcb4fe97d00210ad42f62de053af3f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-15 09:11:47</sys_updated_on>
+        <table>x_1287841_medimeet_appointment</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</application>
+        <file_path/>
+        <instance_id>5a3644ec1bbeb150ba5ceb9b2d4bcb54</instance_id>
+        <instance_name>dev224680</instance_name>
+        <name>sys_ui_action_63bcb4fe97d00210ad42f62de053af3f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;raise_a_request&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+	if(confirm('test')){
+gsftSubmit(null, g_form.getFormElement(), 'raise_a_request');
+	}
+	
+       // g_form.setValue('status', 1);
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;true&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;true&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Raise a request&lt;/name&gt;&lt;onclick&gt;showAlert()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function showAlert() {
+if(confirm('test')){
+gsftSubmit(null, g_form.getFormElement(), 'raise_a_request');
+	}
+}
+current.status = 'Draft';
+current.update();]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-15 08:20:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;63bcb4fe97d00210ad42f62de053af3f&lt;/sys_id&gt;&lt;sys_mod_count&gt;31&lt;/sys_mod_count&gt;&lt;sys_name&gt;Raise a request&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="MediMeet" source="x_1287841_medimeet"&gt;e64c7230975c8210ad42f62de053af5c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MediMeet"&gt;e64c7230975c8210ad42f62de053af5c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_63bcb4fe97d00210ad42f62de053af3f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-15 09:11:47&lt;/sys_updated_on&gt;&lt;table&gt;x_1287841_medimeet_appointment&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1234176977</payload_hash>
+        <record_name>Raise a request</record_name>
+        <reverted_from/>
+        <source>c6b501f197148210ad42f62de053af3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-15 09:11:47</sys_created_on>
+        <sys_id>6a6a853297540210ad42f62de053af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dac094f940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-15 09:11:47</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>226a8532d15402104fc0c6dea9e1014e</update_guid>
+        <update_guid_history>226a8532d15402104fc0c6dea9e1014e:-1234176977,8e5a4d3296540210b352f09a481b5b37:1498284349,b02a85329354021049d55bdd5c875ddf:982542347,a40a01323a5402100cb75b08637a259b:627491317,c0f9c132d1540210621ab179723e2080:567243305,2fd901327e540210f56258bffa71b3a3:292696214,36c94dbe101402107974517a12d86274:-1696040765,67b805beb1140210d439eec16d81f70d:2079507979,eca881beb3140210b64c8fd9c82d33fc:391579019,1648017e9a140210d747cf6a0bf47d3c:-69296789,5908097e1e140210be87e15f2f9418e5:-978350592,b8f7cd3e6b1402102a728c4dda2e7b86:1929220003,1a97c93eec14021011cb5df92738f21f:-978350592,7987c53e701402100c983fde080e995f:-641504736,cc570dfaa9140210009b740c91ec632a:-1495737529,d847013eb5140210782daba422b04884:-670026478,17f6c9fa291402102fc5cb99c2d387aa:-1495737529,30c64dba8f14021033b3cf5bd4b8d3c9:1060979819,b7a645fa62140210ab1fcb0269f597d4:176426123,148605fa49140210176f9f61295d327f:-865376086,1e16c57a251402108111085e54f8b446:1174841447,29258d3a51140210488756c8873287ee:-865376086,7cf40df6b91402109549d18d2da38747:-1298218400,9b840df6d41402101ddb0b2001efad4e:-793563789,e174c9f6201402108d3919717396f7a1:1592671390,2b8349b6de1402104a1ceddf41bb7716:-1822422332,750345b6e81402108bd8d455df938844:83768332,308289f2cf140210df7cb1212c213931:-1610758388,d13085b2501402101cab8cf29ec9b53a:-79599920,ddaffc72e6140210c8a3da8b38b7e487:-1465084574,e0aef472811402105ecde9c0331bcf11:-1068525405</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-15 09:18:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>5f7bbd5dbd504f6698a01ba0dac68d44</sys_id>
+        <sys_metadata>63bcb4fe97d00210ad42f62de053af3f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Raise a request</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_parent display_value="Appointment">49befe0697540210ad42f62de053af82</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_scope_delete display_value="">b8836e4325214378a9428f908adde364</sys_scope_delete>
+        <sys_update_name>sys_ui_action_63bcb4fe97d00210ad42f62de053af3f</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_63bcb4fe97d00210ad42f62de053af3f">6a6a853297540210ad42f62de053af4e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-15 09:18:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

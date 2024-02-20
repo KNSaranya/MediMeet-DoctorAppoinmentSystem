@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="MediMeet">4835b57d97d48210ad42f62de053af98</application>
+        <filter/>
+        <name>Doctor slots</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1287841_medimeet.doctor_slots_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 11:38:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8dc81b4697d40210ad42f62de053af7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Doctor slots</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_ui_module_8dc81b4697d40210ad42f62de053af7f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 11:38:18</sys_updated_on>
+        <table>x_1287841_medimeet_doctor_slots</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</application>
+        <file_path/>
+        <instance_id>5a3644ec1bbeb150ba5ceb9b2d4bcb54</instance_id>
+        <instance_name>dev224680</instance_name>
+        <name>sys_ui_module_8dc81b4697d40210ad42f62de053af7f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="MediMeet">4835b57d97d48210ad42f62de053af98</application><filter/><name>Doctor slots</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1287841_medimeet.doctor_slots_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-13 11:38:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8dc81b4697d40210ad42f62de053af7f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Doctor slots</sys_name><sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package><sys_policy/><sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope><sys_update_name>sys_ui_module_8dc81b4697d40210ad42f62de053af7f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-13 11:38:18</sys_updated_on><table>x_1287841_medimeet_doctor_slots</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-78405315</payload_hash>
+        <record_name>Doctor slots</record_name>
+        <reverted_from/>
+        <source>c6b501f197148210ad42f62de053af3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 11:38:18</sys_created_on>
+        <sys_id>0dc81b4697d40210ad42f62de053af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18da242bb760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 11:38:18</sys_updated_on>
+        <type>Module</type>
+        <update_guid>41c81b46c9d40210f39877832848f881</update_guid>
+        <update_guid_history>41c81b46c9d40210f39877832848f881:-78405315</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 17:00:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>1f683e453e2747c0818a23630fd8d689</sys_id>
+        <sys_metadata>8dc81b4697d40210ad42f62de053af7f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Doctor slots</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_scope_delete display_value="">b8836e4325214378a9428f908adde364</sys_scope_delete>
+        <sys_update_name>sys_ui_module_8dc81b4697d40210ad42f62de053af7f</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_8dc81b4697d40210ad42f62de053af7f">0dc81b4697d40210ad42f62de053af81</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 17:00:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

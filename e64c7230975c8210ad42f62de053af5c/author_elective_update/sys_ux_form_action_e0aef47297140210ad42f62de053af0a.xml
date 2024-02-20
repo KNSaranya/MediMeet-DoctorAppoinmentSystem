@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="DELETE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Raise a request</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-15 08:20:19</sys_created_on>
+        <sys_id>e0aef47297140210ad42f62de053af0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Raise a request</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_ux_form_action_e0aef47297140210ad42f62de053af0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-15 08:20:19</sys_updated_on>
+        <table>x_1287841_medimeet_appointment</table>
+        <ui_action/>
+    </sys_ux_form_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</application>
+        <file_path/>
+        <instance_id>5a3644ec1bbeb150ba5ceb9b2d4bcb54</instance_id>
+        <instance_name>dev224680</instance_name>
+        <name>sys_ux_form_action_e0aef47297140210ad42f62de053af0a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action"><sys_ux_form_action action="INSERT_OR_UPDATE"><action_type>ui_action</action_type><active>true</active><declarative_action/><description/><name>Raise a request</name><specificity>10</specificity><sys_class_name>sys_ux_form_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-15 08:20:19</sys_created_on><sys_id>e0aef47297140210ad42f62de053af0a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Raise a request</sys_name><sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package><sys_policy/><sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope><sys_update_name>sys_ux_form_action_e0aef47297140210ad42f62de053af0a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-15 08:20:19</sys_updated_on><table>x_1287841_medimeet_appointment</table><ui_action/></sys_ux_form_action></record_update>]]></payload>
+        <payload_hash>-1069084624</payload_hash>
+        <record_name>Raise a request</record_name>
+        <reverted_from/>
+        <source>c6b501f197148210ad42f62de053af3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-15 09:18:50</sys_created_on>
+        <sys_id>f90c45b297540210ad42f62de053af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dac0fc4680000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-15 09:18:50</sys_updated_on>
+        <type>UX Form Actions</type>
+        <update_guid>2caef472441402109276fcea3cc6b70c</update_guid>
+        <update_guid_history>2caef472441402109276fcea3cc6b70c:-1814206884,2caef472441402109276fcea3cc6b70c:-1814206884</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-15 09:23:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_form_action">sys_ux_form_action</sys_db_object>
+        <sys_id>2c22e0206dba4982ba9b9b99e11f8c04</sys_id>
+        <sys_metadata>e0aef47297140210ad42f62de053af0a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Raise a request</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_scope_delete display_value="">b8836e4325214378a9428f908adde364</sys_scope_delete>
+        <sys_update_name>sys_ux_form_action_e0aef47297140210ad42f62de053af0a</sys_update_name>
+        <sys_update_version display_value="sys_ux_form_action_e0aef47297140210ad42f62de053af0a">f90c45b297540210ad42f62de053af96</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-15 09:23:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
