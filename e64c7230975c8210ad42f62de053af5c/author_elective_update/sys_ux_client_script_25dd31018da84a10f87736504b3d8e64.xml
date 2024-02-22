@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">cb6f490797d44210ad42f62de053af9b</macroponent>
+        <name>New appointment record</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api : { state}, event, helpers, imports}) {
+    console.log(event.name, {event, state});
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2024-02-22 12:48:43</sys_created_on>
+        <sys_id>25dd31018da84a10f87736504b3d8e64</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New appointment record</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_ux_client_script_25dd31018da84a10f87736504b3d8e64</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2024-02-22 12:48:43</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</application>
+        <file_path/>
+        <instance_id>b9fc80bef5100210a40a0ad5bee53469</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_client_script_25dd31018da84a10f87736504b3d8e64</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;cb6f490797d44210ad42f62de053af9b&lt;/macroponent&gt;&lt;name&gt;New appointment record&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api : { state}, event, helpers, imports}) {
+    console.log(event.name, {event, state});
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;maint&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-22 12:48:43&lt;/sys_created_on&gt;&lt;sys_id&gt;25dd31018da84a10f87736504b3d8e64&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;New appointment record&lt;/sys_name&gt;&lt;sys_package display_value="MediMeet" source="x_1287841_medimeet"&gt;e64c7230975c8210ad42f62de053af5c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MediMeet"&gt;e64c7230975c8210ad42f62de053af5c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_25dd31018da84a10f87736504b3d8e64&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;maint&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-22 12:48:43&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-531989655</payload_hash>
+        <record_name>New appointment record</record_name>
+        <reverted_from/>
+        <source>a18df5018da84a10f87736504b3d8e18</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2024-02-22 12:48:43</sys_created_on>
+        <sys_id>603f3d058da84a10f87736504b3d8e33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dd0dc6efe0000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2024-02-22 12:48:43</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>a43f3d0568a84a106c0e1e45ff8fb932</update_guid>
+        <update_guid_history>a43f3d0568a84a106c0e1e45ff8fb932:-531989655</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2024-02-22 13:23:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0bd0ff2a6f6d47b3875998a82a910849</sys_id>
+        <sys_metadata>25dd31018da84a10f87736504b3d8e64</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New appointment record</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_scope_delete display_value="">b8836e4325214378a9428f908adde364</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_25dd31018da84a10f87736504b3d8e64</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_25dd31018da84a10f87736504b3d8e64">603f3d058da84a10f87736504b3d8e33</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2024-02-22 13:23:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -30,7 +30,7 @@
                     "elementLabel": "New Appointment",
                     "eventMappings": [
                         {
-                            "eventMappingId": "clsuldhfddaabbmqddbhhpxddkyaajjdr",
+                            "eventMappingId": "clsxjjbkddsaaddaafddbhhpmiiwlpsuy",
                             "isConfiguration": false,
                             "offRowStorageId": null,
                             "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
@@ -47,26 +47,22 @@
                                     "clientScript": null,
                                     "conditional": null,
                                     "declarativeAction": null,
-                                    "event": {
-                                        "apiName": "x_1287841_medimeet.MODAL_SELECTED_RELAY_cb6f490797d44210ad42f62de053af9b",
+                                    "event": null,
+                                    "operation": {
+                                        "dataBrokerId": "beda4252770300108d070d74c810618f",
+                                        "operationName": "EXECUTE",
+                                        "parentResourceId": "create_record_1",
                                         "payload": {
                                             "type": "JSON_LITERAL",
                                             "value": {
-                                                "bare": true,
-                                                "displayOptions": null,
-                                                "modalId": "[component-id$='custom_1']",
-                                                "showModal": true,
-                                                "viewportElementId": null,
-                                                "viewportFields": null,
-                                                "viewportParams": null,
-                                                "viewportRoute": null
+                                                "table": "x_1287841_medimeet_appointment",
+                                                "templateFields": "",
+                                                "useSetDisplayValue": null
                                             }
-                                        },
-                                        "sysId": "84906cac97ac0210ad42f62de053afff"
+                                        }
                                     },
-                                    "operation": null,
-                                    "targetId": "clsuldhfddaabbmrddbhhplniiumovr",
-                                    "type": "EVENT"
+                                    "targetId": "clsxjjbkddsaaddaagddbhhpjjjieezudee",
+                                    "type": "DATABROKER_OP"
                                 }
                             ]
                         }
@@ -186,93 +182,7 @@
         "elementLabel": "List 1",
         "eventMappings": [
             {
-                "eventMappingId": "clsunddaaaffaabbfjddbhhpmfqwseemb",
-                "isConfiguration": false,
-                "offRowStorageId": null,
-                "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
-                "sourceEventCorrelationId": null,
-                "sourceEventDefinition": {
-                    "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
-                    "id": null,
-                    "type": "UXEVENT"
-                },
-                "sourceEventSysId": null,
-                "targets": [
-                    {
-                        "broker": null,
-                        "clientScript": null,
-                        "conditional": null,
-                        "declarativeAction": null,
-                        "event": {
-                            "apiName": "x_1287841_medimeet.NAV_ITEM_SELECTED_RELAY_cb6f490797d44210ad42f62de053af9b",
-                            "payload": {
-                                "container": {
-                                    "external": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "fields": {
-                                        "container": {
-                                            "sysId": {
-                                                "binding": {
-                                                    "address": [
-                                                        "sys_id"
-                                                    ]
-                                                },
-                                                "type": "EVENT_PAYLOAD_BINDING"
-                                            },
-                                            "table": {
-                                                "type": "JSON_LITERAL",
-                                                "value": "x_1287841_medimeet_appointment"
-                                            }
-                                        },
-                                        "type": "MAP_CONTAINER"
-                                    },
-                                    "multiInstField": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "navigationOptions": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "params": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "passiveNavigation": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "redirect": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "route": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "appointment"
-                                    },
-                                    "targetRoute": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "title": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    }
-                                },
-                                "type": "MAP_CONTAINER"
-                            },
-                            "sysId": "ee90918797d44210ad42f62de053af44"
-                        },
-                        "operation": null,
-                        "targetId": "clsunddaaaffaabbfkddbhhphhiilvhhoyi",
-                        "type": "EVENT"
-                    }
-                ]
-            },
-            {
-                "eventMappingId": "clsunqiidffaabbgwddbhhpfxffaokvhh",
+                "eventMappingId": "clsxjjigffuaaddffmddbhhpwwptgeeel",
                 "isConfiguration": false,
                 "offRowStorageId": null,
                 "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#CREATE_NEW_RECORD",
@@ -289,26 +199,22 @@
                         "clientScript": null,
                         "conditional": null,
                         "declarativeAction": null,
-                        "event": {
-                            "apiName": "x_1287841_medimeet.MODAL_SELECTED_RELAY_cb6f490797d44210ad42f62de053af9b",
+                        "event": null,
+                        "operation": {
+                            "dataBrokerId": "beda4252770300108d070d74c810618f",
+                            "operationName": "EXECUTE",
+                            "parentResourceId": "create_record_1",
                             "payload": {
                                 "type": "JSON_LITERAL",
                                 "value": {
-                                    "bare": true,
-                                    "displayOptions": null,
-                                    "modalId": "[component-id$='custom_1']",
-                                    "showModal": true,
-                                    "viewportElementId": null,
-                                    "viewportFields": null,
-                                    "viewportParams": null,
-                                    "viewportRoute": null
+                                    "table": "x_1287841_medimeet_appointment",
+                                    "templateFields": "",
+                                    "useSetDisplayValue": null
                                 }
-                            },
-                            "sysId": "84906cac97ac0210ad42f62de053afff"
+                            }
                         },
-                        "operation": null,
-                        "targetId": "clsunqiidffaabbgxddbhhpxvxnddzeebb",
-                        "type": "EVENT"
+                        "targetId": "clsxjjigffuaaddffnddbhhpueeggzxyoa",
+                        "type": "DATABROKER_OP"
                     }
                 ]
             }
@@ -329,7 +235,7 @@
             },
             "columns": {
                 "type": "JSON_LITERAL",
-                "value": "number,appointment_date,appointment_start_time,appointment_end_time"
+                "value": ""
             },
             "daClientActionContract": {
                 "type": "JSON_LITERAL",
@@ -346,12 +252,33 @@
                 ]
             },
             "fixedQuery": {
-                "type": "JSON_LITERAL",
-                "value": ""
+                "transform": {
+                    "operands": {
+                        "container": [
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "sys_created_by="
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "user",
+                                        "userName"
+                                    ],
+                                    "category": "session"
+                                },
+                                "type": "CONTEXT_BINDING"
+                            }
+                        ],
+                        "type": "LIST_CONTAINER"
+                    },
+                    "operator": "CONCAT"
+                },
+                "type": "CLIENT_TRANSFORM"
             },
             "groupByField": {
                 "type": "JSON_LITERAL",
-                "value": null
+                "value": ""
             },
             "headerSize": {
                 "type": "JSON_LITERAL",
@@ -559,7 +486,7 @@
                 "value": {
                     "code": null,
                     "comment": "",
-                    "message": "New Appointments"
+                    "message": "All Active Tasks"
                 }
             },
             "maxCharLimit": {
@@ -584,7 +511,7 @@
             },
             "query": {
                 "type": "JSON_LITERAL",
-                "value": "active=true^ORDERBYDESCsys_created_on"
+                "value": "active=true"
             },
             "recordSelectedQuery": {
                 "type": "JSON_LITERAL",
@@ -603,12 +530,8 @@
                 "value": ""
             },
             "refreshRequested": {
-                "binding": {
-                    "address": [
-                        "refreshPage"
-                    ]
-                },
-                "type": "STATE_BINDING"
+                "type": "JSON_LITERAL",
+                "value": null
             },
             "selectedListId": {
                 "type": "JSON_LITERAL",
@@ -630,7 +553,7 @@
             },
             "view": {
                 "type": "JSON_LITERAL",
-                "value": ""
+                "value": "Default"
             },
             "wordWrap": {
                 "type": "JSON_LITERAL",
@@ -1686,6 +1609,124 @@
         ],
         "inputValues": {},
         "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "beda4252770300108d070d74c810618f",
+            "type": "GRAPHQL"
+        },
+        "dependencies": {},
+        "elementId": "create_record_1",
+        "elementLabel": "Create Record 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "clsxjjkbhpaaddhhkddbhhpccbsaheehhe",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uxf.DATA_OP_SUCCEEDED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uxf.DATA_OP_SUCCEEDED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "x_1287841_medimeet.NAV_ITEM_SELECTED_RELAY_cb6f490797d44210ad42f62de053af9b",
+                            "payload": {
+                                "container": {
+                                    "external": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "fields": {
+                                        "container": {
+                                            "sysId": {
+                                                "binding": {
+                                                    "address": [
+                                                        "data",
+                                                        "output",
+                                                        "data",
+                                                        "GlideRecord_Mutation",
+                                                        "insert_x_1287841_medimeet_appointment",
+                                                        "sys_id",
+                                                        "value"
+                                                    ]
+                                                },
+                                                "type": "EVENT_PAYLOAD_BINDING"
+                                            },
+                                            "table": {
+                                                "type": "JSON_LITERAL",
+                                                "value": "x_1287841_medimeet_appointment"
+                                            }
+                                        },
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "multiInstField": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "navigationOptions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "params": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "passiveNavigation": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "redirect": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "route": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "appointment"
+                                    },
+                                    "targetRoute": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "title": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "ee90918797d44210ad42f62de053af44"
+                        },
+                        "operation": null,
+                        "targetId": "clsxjjkbhpaaddhhlddbhhpfccdeaaxth",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "templateFields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "useSetDisplayValue": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
     }
 ]</data>
         <description/>
@@ -1744,6 +1785,9 @@
     }
 ]</props>
         <required_translations>[ {
+  "message" : "All Active Tasks",
+  "comment" : ""
+}, {
   "message" : "Doctor",
   "comment" : ""
 }, {
@@ -1754,9 +1798,6 @@
   "comment" : ""
 }, {
   "message" : "New Appointment",
-  "comment" : ""
-}, {
-  "message" : "New Appointments",
   "comment" : ""
 }, {
   "message" : "Select here",
@@ -1814,14 +1855,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-16 04:12:09</sys_created_on>
         <sys_id>cb6f490797d44210ad42f62de053af9b</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
         <sys_update_name>sys_ux_macroponent_cb6f490797d44210ad42f62de053af9b</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-20 18:31:34</sys_updated_on>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2024-02-22 13:36:27</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=cb6f490797d44210ad42f62de053af9b"/>
 </record_update>
