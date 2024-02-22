@@ -235,7 +235,7 @@
             },
             "columns": {
                 "type": "JSON_LITERAL",
-                "value": ""
+                "value": "appointment_date"
             },
             "daClientActionContract": {
                 "type": "JSON_LITERAL",
@@ -1855,14 +1855,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-16 04:12:09</sys_created_on>
         <sys_id>cb6f490797d44210ad42f62de053af9b</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
         <sys_update_name>sys_ux_macroponent_cb6f490797d44210ad42f62de053af9b</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2024-02-22 13:36:27</sys_updated_on>
+        <sys_updated_on>2024-02-22 13:39:19</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=cb6f490797d44210ad42f62de053af9b"/>
 </record_update>

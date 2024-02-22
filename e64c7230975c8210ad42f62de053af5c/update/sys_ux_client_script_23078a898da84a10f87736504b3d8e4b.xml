@@ -21,7 +21,7 @@ function handler({api : { state}, event, helpers, imports}) {
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
         <sys_created_by>maint</sys_created_by>
-        <sys_created_on>2024-02-22 13:26:44</sys_created_on>
+        <sys_created_on>2024-02-22 13:39:19</sys_created_on>
         <sys_id>23078a898da84a10f87736504b3d8e4b</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>New client script 1</sys_name>
@@ -30,7 +30,7 @@ function handler({api : { state}, event, helpers, imports}) {
         <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
         <sys_update_name>sys_ux_client_script_23078a898da84a10f87736504b3d8e4b</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2024-02-22 13:26:44</sys_updated_on>
+        <sys_updated_on>2024-02-22 13:39:19</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
