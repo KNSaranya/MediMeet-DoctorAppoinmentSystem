@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>number</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 02:30:50</sys_created_on>
+        <sys_id>cf8e959897200210ad42f62de053afbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_cf8e959897200210ad42f62de053afbd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 02:30:50</sys_updated_on>
+        <table>x_1287841_medimeet_appointment_rating</table>
+        <ui_policy display_value="Hide Appointment Rating fields">d17e559897200210ad42f62de053af02</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</application>
+        <file_path/>
+        <instance_id>5a3644ec1bbeb150ba5ceb9b2d4bcb54</instance_id>
+        <instance_name>dev224680</instance_name>
+        <name>sys_ui_policy_action_cf8e959897200210ad42f62de053afbd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>number</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-20 02:30:50</sys_created_on><sys_id>cf8e959897200210ad42f62de053afbd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>number</sys_name><sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package><sys_policy/><sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope><sys_update_name>sys_ui_policy_action_cf8e959897200210ad42f62de053afbd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-20 02:30:50</sys_updated_on><table>x_1287841_medimeet_appointment_rating</table><ui_policy display_value="Hide Appointment Rating fields">d17e559897200210ad42f62de053af02</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-533548585</payload_hash>
+        <record_name>number</record_name>
+        <reverted_from/>
+        <source>c6b501f197148210ad42f62de053af3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 02:30:50</sys_created_on>
+        <sys_id>c29e159897200210ad42f62de053af28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc45a05a30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 02:30:50</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>0a9e15989c2002106658eaa9d22f3327</update_guid>
+        <update_guid_history>0a9e15989c2002106658eaa9d22f3327:-533548585</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 05:48:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>60ebd54b69da47b1bb4227c2cbb83371</sys_id>
+        <sys_metadata>cf8e959897200210ad42f62de053afbd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_scope_delete display_value="">b8836e4325214378a9428f908adde364</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_cf8e959897200210ad42f62de053afbd</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_cf8e959897200210ad42f62de053afbd">c29e159897200210ad42f62de053af28</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 05:48:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

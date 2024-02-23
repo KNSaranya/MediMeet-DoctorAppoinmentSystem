@@ -36,33 +36,38 @@
 } ]</required_translations>
         <schema_version>1.0.0</schema_version>
         <script><![CDATA[function record(input) {
+	gs.info("nquery method started"+gs.getUserDisplayName());
 var gr = new GlideRecord(input.table);
 var rec =[];
 gr.addQuery('sys_id',input.sysId);
 gr.query();
+gs.info("nquery method done"+gs.getUserID());
+//gs.info("query");
    if(gr.next()){
+	gs.info("nquery method if condtion"+gs.getUserDisplayName());
 	//gr.setValue('short_description','need it '+input.user);
 	//gr.update();
 	var nr = {
 		'status':gr.getValue('status')
 	};
 	rec.push(nr);
+	gs.info("nquery method rec"+gs.getUserDisplayName()+". "+gr.getValue('status'));
 	return rec;
    }
-   return 2;
+   return rec;
 }]]></script>
         <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-19 10:26:42</sys_created_on>
         <sys_id>1f31820497e08610ad42f62de053af33</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Appointment record</sys_name>
         <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
         <sys_update_name>sys_ux_data_broker_transform_1f31820497e08610ad42f62de053af33</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-19 14:39:11</sys_updated_on>
+        <sys_updated_on>2024-02-22 09:21:11</sys_updated_on>
     </sys_ux_data_broker_transform>
     <sys_translated_text action="delete_multiple" query="documentkey=1f31820497e08610ad42f62de053af33"/>
 </record_update>

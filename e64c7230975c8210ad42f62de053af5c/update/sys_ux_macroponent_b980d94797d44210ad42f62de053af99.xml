@@ -186,6 +186,215 @@
     },
     {
         "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_3",
+        "elementLabel": "Container 3",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d37ce8abca89d02905fed903c8e34d8e",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "close",
+                    "elementLabel": "Close",
+                    "eventMappings": [
+                        {
+                            "eventMappingId": "clswccsjggfaaeebgddbhhpbbpwuddsop",
+                            "isConfiguration": false,
+                            "offRowStorageId": null,
+                            "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                            "sourceEventCorrelationId": null,
+                            "sourceEventDefinition": {
+                                "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                "id": null,
+                                "type": "UXEVENT"
+                            },
+                            "sourceEventSysId": null,
+                            "targets": [
+                                {
+                                    "broker": null,
+                                    "clientScript": {
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {}
+                                        },
+                                        "sysId": "8ed63db0976c0210ad42f62de053afe2"
+                                    },
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": null,
+                                    "operation": null,
+                                    "targetId": "clswccsjggfaaeebhddbhhpxsrkddaaij",
+                                    "type": "CLIENT_SCRIPT"
+                                },
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_1287841_medimeet.NAV_ITEM_SELECTED_RELAY_b980d94797d44210ad42f62de053af99",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "external": null,
+                                                "fields": null,
+                                                "multiInstField": null,
+                                                "navigationOptions": null,
+                                                "params": null,
+                                                "passiveNavigation": null,
+                                                "redirect": null,
+                                                "route": "home",
+                                                "targetRoute": null,
+                                                "title": null
+                                            }
+                                        },
+                                        "sysId": "ca23e51097600210ad42f62de053af90"
+                                    },
+                                    "operation": null,
+                                    "targetId": "clswddiideepaabbfaddbhhpgbldhhzfc",
+                                    "type": "EVENT"
+                                }
+                            ]
+                        }
+                    ],
+                    "isHidden": {
+                        "operation": {
+                            "left": {
+                                "binding": {
+                                    "address": [
+                                        "appointment_record",
+                                        "output",
+                                        "0",
+                                        "status"
+                                    ]
+                                },
+                                "type": "DATA_OUTPUT_BINDING"
+                            },
+                            "operator": "NOT_EQUAL",
+                            "right": {
+                                "type": "JSON_LITERAL",
+                                "value": 2
+                            }
+                        },
+                        "type": "BINARY"
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "disabled": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "icon": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "label": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Close"
+                            }
+                        },
+                        "size": {
+                            "type": "JSON_LITERAL",
+                            "value": "md"
+                        },
+                        "tooltipContent": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Enter a label"
+                            }
+                        },
+                        "variant": {
+                            "type": "JSON_LITERAL",
+                            "value": "secondary"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "close",
+                            "styles": {
+                                "align-self": "flex-end"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column",
+                        "width": "100%"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": "left",
+        "styles": null
+    },
+    {
+        "definition": {
             "id": "e72c75f648cda0becbd28db9a44b569f",
             "type": "MACROPONENT"
         },
@@ -1065,7 +1274,7 @@
                                                                     "isHero": false,
                                                                     "isHidden": {
                                                                         "type": "JSON_LITERAL",
-                                                                        "value": null
+                                                                        "value": true
                                                                     },
                                                                     "isNonDestructive": false,
                                                                     "items": [
@@ -4349,8 +4558,10 @@
                                                         "left": {
                                                             "binding": {
                                                                 "address": [
-                                                                    "record",
-                                                                    "isValid"
+                                                                    "appointment_record",
+                                                                    "output",
+                                                                    "0",
+                                                                    "status"
                                                                 ]
                                                             },
                                                             "type": "DATA_OUTPUT_BINDING"
@@ -4358,27 +4569,52 @@
                                                         "operator": "NOT_EQUAL",
                                                         "right": {
                                                             "type": "JSON_LITERAL",
-                                                            "value": true
+                                                            "value": "1"
                                                         }
                                                     },
                                                     "type": "BINARY"
                                                 },
-                                                "operator": "AND",
+                                                "operator": "OR",
                                                 "right": {
                                                     "operation": {
                                                         "left": {
-                                                            "binding": {
-                                                                "address": [
-                                                                    "record",
-                                                                    "isValid"
-                                                                ]
+                                                            "operation": {
+                                                                "left": {
+                                                                    "binding": {
+                                                                        "address": [
+                                                                            "record",
+                                                                            "isValid"
+                                                                        ]
+                                                                    },
+                                                                    "type": "DATA_OUTPUT_BINDING"
+                                                                },
+                                                                "operator": "NOT_EQUAL",
+                                                                "right": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": true
+                                                                }
                                                             },
-                                                            "type": "DATA_OUTPUT_BINDING"
+                                                            "type": "BINARY"
                                                         },
-                                                        "operator": "NOT_EQUAL",
+                                                        "operator": "AND",
                                                         "right": {
-                                                            "type": "JSON_LITERAL",
-                                                            "value": false
+                                                            "operation": {
+                                                                "left": {
+                                                                    "binding": {
+                                                                        "address": [
+                                                                            "record",
+                                                                            "isValid"
+                                                                        ]
+                                                                    },
+                                                                    "type": "DATA_OUTPUT_BINDING"
+                                                                },
+                                                                "operator": "NOT_EQUAL",
+                                                                "right": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": false
+                                                                }
+                                                            },
+                                                            "type": "BINARY"
                                                         }
                                                     },
                                                     "type": "BINARY"
@@ -6140,6 +6376,34 @@
                                                 "operation": null,
                                                 "targetId": "clsuffhhwraabbpkddbhhpsaaccxlgyr",
                                                 "type": "EVENT"
+                                            },
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "x_1287841_medimeet.NAV_ITEM_SELECTED_RELAY_b980d94797d44210ad42f62de053af99",
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {
+                                                            "external": null,
+                                                            "fields": null,
+                                                            "multiInstField": null,
+                                                            "navigationOptions": null,
+                                                            "params": null,
+                                                            "passiveNavigation": null,
+                                                            "redirect": null,
+                                                            "route": "home",
+                                                            "targetRoute": null,
+                                                            "title": null
+                                                        }
+                                                    },
+                                                    "sysId": "ca23e51097600210ad42f62de053af90"
+                                                },
+                                                "operation": null,
+                                                "targetId": "clsxccjjzffxaamaccddbhhpeexbhqbbrn",
+                                                "type": "EVENT"
                                             }
                                         ]
                                     }
@@ -6777,6 +7041,36 @@
                         "operation": null,
                         "targetId": "clsujjuahhpaabbemddbhhpggmvqffggst",
                         "type": "CLIENT_SCRIPT"
+                    },
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                            "payload": {
+                                "container": {
+                                    "propName": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "record_status"
+                                    },
+                                    "value": {
+                                        "binding": {
+                                            "address": [
+                                                "dataElemId"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "32408b42ff7a10109046e490703bf176"
+                        },
+                        "operation": null,
+                        "targetId": "clswddzddggtaaccsaaddbhhpiqjaeeccza",
+                        "type": "EVENT"
                     }
                 ]
             }
@@ -6843,6 +7137,108 @@
                     ]
                 },
                 "type": "STATE_BINDING"
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
+    },
+    {
+        "definition": {
+            "id": "bba46ec077223010f5025df90f5a9920",
+            "type": "CLIENT_STATE"
+        },
+        "dependencies": {},
+        "elementId": "record_watcher_1",
+        "elementLabel": "Record Watcher 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "clsvotbbaasaaiimnddbhhpkkjjlfeqf",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_record_watcher.RECORD_WATCHER#MESSAGE_RECEIVED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_record_watcher.RECORD_WATCHER#MESSAGE_RECEIVED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": {
+                            "dataBrokerId": "1f31820497e08610ad42f62de053af33",
+                            "operationName": "REFRESH",
+                            "parentResourceId": "appointment_record",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {}
+                            }
+                        },
+                        "targetId": "clsvotbbaasaaiimoddbhhpkteeialohh",
+                        "type": "DATABROKER_OP"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "filterConditions": {
+                "transform": {
+                    "operands": {
+                        "container": [
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "sys_id="
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "sysId"
+                                    ],
+                                    "category": "props"
+                                },
+                                "type": "CONTEXT_BINDING"
+                            }
+                        ],
+                        "type": "LIST_CONTAINER"
+                    },
+                    "operator": "CONCAT"
+                },
+                "type": "CLIENT_TRANSFORM"
+            },
+            "subscribe": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_1287841_medimeet_appointment"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "66bea1f4972c0210ad42f62de053af9e",
+            "type": "TRANSFORM"
+        },
+        "dependencies": {},
+        "elementId": "update_appointment_record_as_closed",
+        "elementLabel": "Update appointment record as closed 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "sysId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": ""
             }
         },
         "readEvaluationMode": "EXPLICIT"
@@ -6917,6 +7313,10 @@
                 "styles": {
                     "width": "100%"
                 }
+            },
+            {
+                "element_id": "container_3",
+                "styles": {}
             },
             {
                 "element_id": "stepper_1",
@@ -7111,6 +7511,9 @@
   "message" : "Cancel",
   "comment" : ""
 }, {
+  "message" : "Close",
+  "comment" : ""
+}, {
   "message" : "Compose",
   "comment" : ""
 }, {
@@ -7233,20 +7636,40 @@
         "name": "comments",
         "shape": "",
         "valueType": "string"
+    },
+    {
+        "initialValue": null,
+        "name": "record_status",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "initialValue": {
+            "binding": {
+                "address": [
+                    "sysId"
+                ],
+                "category": "props"
+            },
+            "type": "CONTEXT_BINDING"
+        },
+        "name": "sysId",
+        "shape": "",
+        "valueType": "string"
     }
 ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-16 04:16:58</sys_created_on>
         <sys_id>b980d94797d44210ad42f62de053af99</sys_id>
-        <sys_mod_count>209</sys_mod_count>
+        <sys_mod_count>250</sys_mod_count>
         <sys_name>Record</sys_name>
         <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
         <sys_update_name>sys_ux_macroponent_b980d94797d44210ad42f62de053af99</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-20 18:47:58</sys_updated_on>
+        <sys_updated_on>2024-02-22 10:09:32</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=b980d94797d44210ad42f62de053af99"/>
 </record_update>

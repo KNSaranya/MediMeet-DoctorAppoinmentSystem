@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_1287841_medimeet.Update appointment record as closed</api_name>
+        <description/>
+        <mutates_server_data>true</mutates_server_data>
+        <name>Update appointment record as closed</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name":"table",&#13;
+    "label":"Table name",&#13;
+    "description":"",&#13;
+    "readOnly":"false",&#13;
+    "fieldType":"string",&#13;
+    "mandatory":true,&#13;
+    "defaultValue":""&#13;
+  },&#13;
+ {&#13;
+    "name":"sysId",&#13;
+    "label":"SydId",&#13;
+    "description":"",&#13;
+    "readOnly":"false",&#13;
+    "fieldType":"string",&#13;
+    "mandatory":true,&#13;
+    "defaultValue":""&#13;
+  }&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "SydId",
+  "comment" : ""
+}, {
+  "message" : "Table name",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function record(input) {
+var ng = new GlideRecord(input.table);
+ng.addQuery('sys_id',input.sysId);
+ng.query();
+if(ng.next()){
+	ng.status = "4";
+	ng.update();
+}
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 17:07:26</sys_created_on>
+        <sys_id>66bea1f4972c0210ad42f62de053af9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update appointment record as closed</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_66bea1f4972c0210ad42f62de053af9e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 17:07:26</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=66bea1f4972c0210ad42f62de053af9e"/>
+</record_update>

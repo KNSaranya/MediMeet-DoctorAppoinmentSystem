@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="doctor">733ea5b4972c0210ad42f62de053af22</macroponent>
+        <name>Update appointment closed</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    const sys_Id = api.state.sysId;
+    debugger;
+    api.data.update_appointment_record_as_closed.execute({
+      table: 'x_1287841_medimeet_appointment',
+      sysId: sys_Id
+     });
+    // var r= api.data.new_appointment_rating_record.sysId;
+    // console.log(r);
+}
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 17:04:39</sys_created_on>
+        <sys_id>454e2d74972c0210ad42f62de053af44</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Update appointment closed</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_ux_client_script_454e2d74972c0210ad42f62de053af44</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 17:18:56</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</application>
+        <file_path/>
+        <instance_id>5a3644ec1bbeb150ba5ceb9b2d4bcb54</instance_id>
+        <instance_name>dev224680</instance_name>
+        <name>sys_ux_client_script_454e2d74972c0210ad42f62de053af44</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="doctor"&gt;733ea5b4972c0210ad42f62de053af22&lt;/macroponent&gt;&lt;name&gt;Update appointment closed&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    const sys_Id = api.state.sysId;
+    debugger;
+    api.data.update_appointment_record_as_closed.execute({
+      table: 'x_1287841_medimeet_appointment',
+      sysId: sys_Id
+     });
+    // var r= api.data.new_appointment_rating_record.sysId;
+    // console.log(r);
+}
+]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-21 17:04:39&lt;/sys_created_on&gt;&lt;sys_id&gt;454e2d74972c0210ad42f62de053af44&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update appointment closed&lt;/sys_name&gt;&lt;sys_package display_value="MediMeet" source="x_1287841_medimeet"&gt;e64c7230975c8210ad42f62de053af5c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MediMeet"&gt;e64c7230975c8210ad42f62de053af5c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_454e2d74972c0210ad42f62de053af44&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-21 17:18:56&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1163019735</payload_hash>
+        <record_name>Update appointment closed</record_name>
+        <reverted_from/>
+        <source>c6b501f197148210ad42f62de053af3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 17:18:56</sys_created_on>
+        <sys_id>70733d7c972c0210ad42f62de053af89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dccad75430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 17:18:56</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>38733d7ce32c02107487f31c3fc3d088</update_guid>
+        <update_guid_history>38733d7ce32c02107487f31c3fc3d088:-1163019735,26b2753ca92c0210fd032b04ffc537e1:1691922569,017139b8012c02106563d45d1c7f3157:885878146,2b207d388a2c0210a9e989356af34dca:367967254</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 17:40:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>1adf523f7aad4d92aaf3c402e7b481d9</sys_id>
+        <sys_metadata>454e2d74972c0210ad42f62de053af44</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update appointment closed</sys_name>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_scope_delete display_value="">b8836e4325214378a9428f908adde364</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_454e2d74972c0210ad42f62de053af44</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_454e2d74972c0210ad42f62de053af44">70733d7c972c0210ad42f62de053af89</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 17:40:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

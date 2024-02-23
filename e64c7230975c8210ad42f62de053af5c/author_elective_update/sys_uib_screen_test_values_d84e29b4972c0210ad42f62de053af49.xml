@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{
+    "table": "x_1287841_medimeet_appointment",
+    "sysId": "603dad34972c0210ad42f62de053afa5",
+    "query": "",
+    "extraParams": "",
+    "views": "",
+    "selectedTabIndex": "",
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputSysId": "603dad34972c0210ad42f62de053afa5",
+        "inputTable": "x_1287841_medimeet_appointment",
+        "shouldDisplayFormErrorsAsPageAlerts": false
+    }
+}</macroponent_config>
+        <screen display_value="doctor">d84e29b4972c0210ad42f62de053af45</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 16:56:14</sys_created_on>
+        <sys_id>d84e29b4972c0210ad42f62de053af49</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_d84e29b4972c0210ad42f62de053af49</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 17:18:56</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</application>
+        <file_path/>
+        <instance_id>5a3644ec1bbeb150ba5ceb9b2d4bcb54</instance_id>
+        <instance_name>dev224680</instance_name>
+        <name>sys_uib_screen_test_values_d84e29b4972c0210ad42f62de053af49</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{
+    "table": "x_1287841_medimeet_appointment",
+    "sysId": "603dad34972c0210ad42f62de053afa5",
+    "query": "",
+    "extraParams": "",
+    "views": "",
+    "selectedTabIndex": "",
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputSysId": "603dad34972c0210ad42f62de053afa5",
+        "inputTable": "x_1287841_medimeet_appointment",
+        "shouldDisplayFormErrorsAsPageAlerts": false
+    }
+}</macroponent_config><screen display_value="doctor">d84e29b4972c0210ad42f62de053af45</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 16:56:14</sys_created_on><sys_id>d84e29b4972c0210ad42f62de053af49</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package><sys_policy/><sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope><sys_update_name>sys_uib_screen_test_values_d84e29b4972c0210ad42f62de053af49</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 17:18:56</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>1334436120</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c6b501f197148210ad42f62de053af3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 17:18:56</sys_created_on>
+        <sys_id>f8733d7c972c0210ad42f62de053af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dccad75a00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 17:18:56</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>70733d7c422c021088f28514e18e348d</update_guid>
+        <update_guid_history>70733d7c422c021088f28514e18e348d:1334436120,4f6e2db4582c02109a35908cd3692db1:744791427,dc4e29b49c2c0210c8925152afcaff4a:919190392</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 17:40:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>6b01724c1b1444019ef9cc2a0922e491</sys_id>
+        <sys_metadata>d84e29b4972c0210ad42f62de053af49</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_scope_delete display_value="">b8836e4325214378a9428f908adde364</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_d84e29b4972c0210ad42f62de053af49</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_d84e29b4972c0210ad42f62de053af49">f8733d7c972c0210ad42f62de053af8d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 17:40:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

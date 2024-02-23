@@ -16,8 +16,9 @@
 * @param {ApiHelpers} params.helpers
 */
 function handler({api, event, helpers, imports}) {
-    
+    debugger;
     const status = api.data.appointment_record.output[0].status;
+    api.setState('record_status', status);
     //const test = api.data.look_up_record_1.output;
     debugger;
     //let stateData = [{"id":"step1","label":"Not started","progress":"none"},{"id":"step2","label":"Active","progress":"partial"},{"id":"step3","label":"In progress","progress":"partial"},{"id":"step4","label":"Complete","progress":"done","disabled":true}];
@@ -137,14 +138,14 @@ function handler({api, event, helpers, imports}) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-19 12:44:50</sys_created_on>
         <sys_id>0ac2ce4497e08610ad42f62de053af85</sys_id>
-        <sys_mod_count>125</sys_mod_count>
+        <sys_mod_count>129</sys_mod_count>
         <sys_name>ProcessFlow</sys_name>
         <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
         <sys_update_name>sys_ux_client_script_0ac2ce4497e08610ad42f62de053af85</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-20 12:54:25</sys_updated_on>
+        <sys_updated_on>2024-02-22 09:17:03</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>

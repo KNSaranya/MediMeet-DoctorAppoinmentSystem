@@ -4,19 +4,19 @@
         <order>0</order>
         <sys_class_name>m2m_app_config_theme</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-02-16 05:23:49</sys_created_on>
+        <sys_created_on>2024-02-21 10:22:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>38df550b97184210ad42f62de053affd</sys_id>
+        <sys_id>b1045c3c97640210ad42f62de053af4c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
-        <sys_update_name>m2m_app_config_theme_38df550b97184210ad42f62de053affd</sys_update_name>
+        <sys_update_name>m2m_app_config_theme_b1045c3c97640210ad42f62de053af4c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-16 05:23:49</sys_updated_on>
+        <sys_updated_on>2024-02-21 10:22:02</sys_updated_on>
         <theme/>
         <ux_app_configuration display_value="Medimeet workspace">c9dec5c397d44210ad42f62de053afbe</ux_app_configuration>
     </m2m_app_config_theme>

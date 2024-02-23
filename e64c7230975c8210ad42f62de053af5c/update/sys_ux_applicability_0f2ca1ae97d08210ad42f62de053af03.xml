@@ -2,17 +2,17 @@
     <sys_ux_applicability action="INSERT_OR_UPDATE">
         <active>true</active>
         <api_name>x_1287841_medimeet.Medimeet users</api_name>
-        <description/>
+        <description>Medimeet users</description>
         <name>Medimeet users</name>
-        <role_names>x_1287841_medimeet.users</role_names>
-        <roles/>
+        <role_names/>
+        <roles name="x_1287841_medimeet.users">6542ada297d08210ad42f62de053afc0</roles>
         <sys_class_name>sys_ux_applicability</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-14 17:01:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0f2ca1ae97d08210ad42f62de053af03</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Medimeet users</sys_name>
         <sys_overrides/>
         <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
@@ -20,6 +20,6 @@
         <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
         <sys_update_name>sys_ux_applicability_0f2ca1ae97d08210ad42f62de053af03</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-14 17:01:05</sys_updated_on>
+        <sys_updated_on>2024-02-21 10:26:33</sys_updated_on>
     </sys_ux_applicability>
 </record_update>

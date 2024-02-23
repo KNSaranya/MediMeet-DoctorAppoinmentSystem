@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1287841_medimeet.Medimeet hospital admin</api_name>
+        <description/>
+        <name>Medimeet hospital admin</name>
+        <role_names>x_1287841_medimeet.hospital_user</role_names>
+        <roles name="x_1287841_medimeet.hospital_user">292455bd97148210ad42f62de053af4d</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 06:36:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>05f9600d97684210ad42f62de053af6d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Medimeet hospital admin</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_ux_applicability_05f9600d97684210ad42f62de053af6d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 06:47:20</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

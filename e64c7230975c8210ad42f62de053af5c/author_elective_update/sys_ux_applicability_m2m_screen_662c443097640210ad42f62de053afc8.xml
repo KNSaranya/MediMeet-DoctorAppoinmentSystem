@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="DELETE">
+        <active>true</active>
+        <applicability display_value="Medimeet users">0f2ca1ae97d08210ad42f62de053af03</applicability>
+        <order>100</order>
+        <screen display_value="patient">4a16c47897240210ad42f62de053aff4</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 09:47:40</sys_created_on>
+        <sys_id>662c443097640210ad42f62de053afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_662c443097640210ad42f62de053afc8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 09:47:40</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</application>
+        <file_path/>
+        <instance_id>5a3644ec1bbeb150ba5ceb9b2d4bcb54</instance_id>
+        <instance_name>dev224680</instance_name>
+        <name>sys_ux_applicability_m2m_screen_662c443097640210ad42f62de053afc8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen"><sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="Medimeet users">0f2ca1ae97d08210ad42f62de053af03</applicability><order>100</order><screen display_value="patient">4a16c47897240210ad42f62de053aff4</screen><sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 09:47:40</sys_created_on><sys_id>662c443097640210ad42f62de053afc8</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package><sys_policy/><sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope><sys_update_name>sys_ux_applicability_m2m_screen_662c443097640210ad42f62de053afc8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 09:47:40</sys_updated_on></sys_ux_applicability_m2m_screen></record_update>]]></payload>
+        <payload_hash>1909501568</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c6b501f197148210ad42f62de053af3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 09:47:40</sys_created_on>
+        <sys_id>ae2c443097640210ad42f62de053afca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dcb1050c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 09:47:40</sys_updated_on>
+        <type>Screen Applicability</type>
+        <update_guid>a22c4430b464021096b9ed029e8274ca</update_guid>
+        <update_guid_history>a22c4430b464021096b9ed029e8274ca:1909501568</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 10:01:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_screen">sys_ux_applicability_m2m_screen</sys_db_object>
+        <sys_id>241d7b170b4d49679bb4b2283a6e3c11</sys_id>
+        <sys_metadata>662c443097640210ad42f62de053afc8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
+        <sys_scope_delete display_value="">b8836e4325214378a9428f908adde364</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_screen_662c443097640210ad42f62de053afc8</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_screen_662c443097640210ad42f62de053afc8">ae2c443097640210ad42f62de053afca</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 10:01:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
