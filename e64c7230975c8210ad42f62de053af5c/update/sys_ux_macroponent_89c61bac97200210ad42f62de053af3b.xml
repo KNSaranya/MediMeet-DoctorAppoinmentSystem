@@ -101,7 +101,7 @@
                                         },
                                         "filterQuery": {
                                             "type": "JSON_LITERAL",
-                                            "value": "appointment_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^doctor.nameDYNAMIC90d1921e5f510100a9ad2572f2b477fe^statusIN5,2"
+                                            "value": "appointment_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^statusIN5,2"
                                         },
                                         "id": {
                                             "type": "JSON_LITERAL",
@@ -654,8 +654,29 @@
                             ]
                         },
                         "fixedQuery": {
-                            "type": "JSON_LITERAL",
-                            "value": "statusIN5,2"
+                            "transform": {
+                                "operands": {
+                                    "container": [
+                                        {
+                                            "type": "JSON_LITERAL",
+                                            "value": "statusIN5,2^NQdoctor.name.name="
+                                        },
+                                        {
+                                            "binding": {
+                                                "address": [
+                                                    "user",
+                                                    "fullName"
+                                                ],
+                                                "category": "session"
+                                            },
+                                            "type": "CONTEXT_BINDING"
+                                        }
+                                    ],
+                                    "type": "LIST_CONTAINER"
+                                },
+                                "operator": "CONCAT"
+                            },
+                            "type": "CLIENT_TRANSFORM"
                         },
                         "groupByField": {
                             "type": "JSON_LITERAL",
@@ -891,33 +912,8 @@
                             "value": 1
                         },
                         "query": {
-                            "transform": {
-                                "operands": {
-                                    "container": [
-                                        {
-                                            "type": "JSON_LITERAL",
-                                            "value": "doctor.name.nameLIKE"
-                                        },
-                                        {
-                                            "binding": {
-                                                "address": [
-                                                    "user",
-                                                    "fullName"
-                                                ],
-                                                "category": "session"
-                                            },
-                                            "type": "CONTEXT_BINDING"
-                                        },
-                                        {
-                                            "type": "JSON_LITERAL",
-                                            "value": "^NQappointment_date&gt;=javascript:gs.beginningOfToday()^ORDERBYDESCappointment_date"
-                                        }
-                                    ],
-                                    "type": "LIST_CONTAINER"
-                                },
-                                "operator": "CONCAT"
-                            },
-                            "type": "CLIENT_TRANSFORM"
+                            "type": "JSON_LITERAL",
+                            "value": "ORDERBYDESCappointment_date"
                         },
                         "recordSelectedQuery": {
                             "type": "JSON_LITERAL",
@@ -1127,14 +1123,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-21 05:54:22</sys_created_on>
         <sys_id>89c61bac97200210ad42f62de053af3b</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>doctor home</sys_name>
         <sys_package display_value="MediMeet" source="x_1287841_medimeet">e64c7230975c8210ad42f62de053af5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="MediMeet">e64c7230975c8210ad42f62de053af5c</sys_scope>
         <sys_update_name>sys_ux_macroponent_89c61bac97200210ad42f62de053af3b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 13:33:38</sys_updated_on>
+        <sys_updated_on>2024-02-23 06:07:48</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=89c61bac97200210ad42f62de053af3b"/>
 </record_update>
